@@ -1,2 +1,9 @@
 const topics = "HTML, CSS, Git, JavaScript";
-console.log(topics);
+
+function print(topics) {
+  topics.split(",").forEach((topic) => {
+    console.log(topic);
+  });
+}
+
+print(topics);
